@@ -83,6 +83,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "c4de",
+      "title": " Cyber-security",
+      "type": "Internship",
+      "location": " Multan, Pakistan",
+      "description": " We’re looking for a Cyber Security Specialist to join our IT team and safeguard our organization’s information assets. In this role, you will design, implement, and maintain security solutions to protect data, networks, and systems from cyber threats.",
+      "salary": "$80K - 90K",
+      "company": {
+        "name": " IronGate Security",
+        "description": "IronGate Security is a premier cybersecurity firm dedicated to fortifying enterprises against today’s most sophisticated digital threats. With a focus on strength, reliability, and controlled access, our name embodies the unyielding protection we bring to every client engagement",
+        "contactEmail": "zhashmi06@gmail.com",
+        "contactPhone": " 0300-1234-567"
+      }
     }
   ]
 }

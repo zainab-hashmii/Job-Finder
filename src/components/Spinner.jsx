@@ -3,7 +3,7 @@ import ClipLoader from 'react-spinners/ClipLoader'
 import Cliploader from 'react-spinners/ClipLoader'
 
 
-const iverride = {
+const override = {
     display: 'block',
     margin: '100px auto'
 }
