@@ -1,12 +1,38 @@
-# React + Vite
+# Job Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, client-side React application built with Vite for browsing, creating, editing, and deleting job listings. Demonstrates modern React patterns, Tailwind CSS styling, React Router data APIs, and integration with a RESTful `/api/jobs` backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Home Page** hero section with “Browse Jobs” and “Add Job” calls-to-action  
+- **Job Listings**: grid view of all jobs (or a limited “Recent Jobs” view)  
+- **Job Details**: full description, salary, company info, and management actions  
+- **Add & Edit Job** forms with client-side validation  
+- **Delete Job** confirmation modal  
+- **404 Not Found** page  
+- **Loading Spinner** during data fetches  
+- **Toast Notifications** for successful operations  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Prerequisites
+
+- **Node.js** ≥ 18  
+- **npm** ≥ 9 (or **yarn** / **pnpm**)  
+- A running backend exposing:
+  - `GET    /api/jobs`
+  - `GET    /api/jobs/:id`
+  - `POST   /api/jobs`
+  - `PUT    /api/jobs/:id`
+  - `DELETE /api/jobs/:id`
+
+---
+
+## 💻 Getting Started
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/<your-username>/job-finder.git
+   cd job-finder
